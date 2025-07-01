@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Lanzar FlappyBird",
+      "request": "launch",
+      "mainClass": "App",
+      "cwd": "${workspaceFolder}",
+      "vmArgs": "-cp bin:res"
+    }
+  ]
+}
