@@ -9,7 +9,10 @@ mkdir -p bin
 javac -d bin -cp src App.java src/**/**/*.java
 
 java -cp bin App
+
 --------------------------
+
+javac -d bin -sourcepath src App.java
 
 jar cfm flappybird.jar Manifest.txt -C bin/ .
 
